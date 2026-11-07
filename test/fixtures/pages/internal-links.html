@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Relative and fragment links</title>
+    </head>
+    <body>
+        <article>
+            <h2 id="navigation">Navigation</h2>
+            <p>
+                A relative link: <a href="/relative/path">relative</a>. A
+                relative link with a query:
+                <a href="../other/page.html?x=1#part">relative query</a>.
+            </p>
+            <p>
+                A fragment that exists:
+                <a href="#navigation">back to the top</a>. A fragment that does
+                not exist: <a href="#missing">nowhere</a>. An empty fragment:
+                <a href="#">top of page</a>.
+            </p>
+            <p>
+                A relative link around an image:
+                <a href="/gallery"
+                    ><img
+                        src="https://images.example.com/five.png"
+                        alt="Gallery"
+                /></a>
+            </p>
+            <p>
+                An email address:
+                <a href="mailto:someone@example.com">email</a>.
+            </p>
+        </article>
+    </body>
+</html>

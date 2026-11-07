@@ -1,0 +1,39 @@
+{
+    "manifest_version": 3,
+    "name": "embooken",
+    "version": "1.0.0",
+
+    "description": "Convert web page articles to epub format.",
+
+    "icons": {
+        "48": "assets/icon-48.png",
+        "128": "assets/icon-128.png"
+    },
+    "permissions": [],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "embooken@adamarstall.com",
+            "data_collection_permissions": {
+                "required": ["none"]
+            }
+        }
+    },
+
+    "action": {
+        "default_popup": "action/popup.html"
+    },
+
+    "host_permissions": ["<all_urls>"],
+
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.ts"]
+        }
+    ],
+
+    "background": {
+        "scripts": ["background.ts"],
+        "type": "module"
+    }
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Image heavy article</title>
+    </head>
+    <body>
+        <article>
+            <h2>Pictures</h2>
+            <p>A PNG with a responsive source set:</p>
+            <img
+                src="https://images.example.com/photos/one.png?w=800"
+                srcset="https://images.example.com/photos/one.png?w=400 400w"
+                sizes="100vw"
+                alt="First picture"
+            />
+            <p>A GIF , an SVG and a JPG:</p>
+            <img
+                src="https://images.example.com/two.gif"
+                alt="Second picture"
+            />
+            <img
+                src="https://images.example.com/three.svg"
+                alt="Third picture"
+            />
+            <img
+                src="https://images.example.com/four.jpg"
+                alt="Fourth picture"
+            />
+            <p>A linked image:</p>
+            <a href="https://example.com/gallery"
+                ><img
+                    src="https://images.example.com/five.png"
+                    alt="Fifth picture"
+            /></a>
+            <p>A broken image</p>
+            <img
+                src="https://images.example.com/not-found.jpg?response=404"
+                alt="Not found picture"
+            />
+            <img
+                src="https://images.example.com/error.jpg?response=500"
+                alt="Error picture"
+            />
+        </article>
+    </body>
+</html>

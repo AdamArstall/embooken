@@ -1,0 +1,9 @@
+dist
+node_modules
+
+# Extension.js local session state
+.extension-js
+
+# Downloaded tools and test output
+tools
+.npm-cache

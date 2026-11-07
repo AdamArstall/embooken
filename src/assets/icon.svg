@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48mm"
+   height="48mm"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   sodipodi:docname="icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="4.0190872"
+     inkscape:cx="77.50516"
+     inkscape:cy="79.246849"
+     inkscape:window-width="1440"
+     inkscape:window-height="900"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g1" />
+  <defs
+     id="defs1" />
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke-width:0.277775"
+     id="rect1"
+     width="37.610176"
+     height="8.8942976"
+     x="4.2490616"
+     y="36.073906" />
+  <g
+     id="g1"
+     style="fill:#916f6f"
+     transform="matrix(0.37098578,0,0,0.37098578,4.208812,1.2313548)">
+    <path
+       class="st0"
+       d="M 16.712807,-3.2905549 H 105.36309 V 95.648365 c -0.15748,2.761136 -3.72701,2.834625 -7.5905,2.656149 H 15.40048 c -5.333295,0 -9.700717,4.356916 -9.700717,9.700716 0,5.33329 4.356924,9.70072 9.700717,9.70072 h 85.92064 v -10.32014 h 7.5905 v 13.11277 c 0,2.39368 -1.95274,4.33593 -4.33593,4.33593 H 15.77843 C 6.1722005,128.40403 -1.6807613,120.54058 -1.6807613,110.94484 V 15.103014 c 0,-10.1206626 8.2729063,-18.3935689 18.3935683,-18.3935689 z M 53.615427,84.246872 24.135325,53.590926 H 43.106317 V 25.076695 H 64.11404 v 28.514231 h 18.970992 z"
+       id="path1"
+       style="clip-rule:evenodd;fill:#916f6f;fill-rule:evenodd;stroke-width:1.04986"
+       inkscape:label="path1" />
+  </g>
+  <path
+     style="fill:#decd87;stroke-width:0.0712447"
+     d="m 18.633041,26.809193 -5.493103,-5.714879 3.516064,-0.01848 3.516065,-0.01848 v -5.342691 -5.342686 h 3.918457 3.918455 v 5.343351 5.34335 h 3.526612 c 1.939637,0 3.526612,0.01751 3.526612,0.03889 0,0.02138 -2.393329,2.530096 -5.31851,5.574897 -2.925179,3.044799 -5.385791,5.607005 -5.468028,5.693792 l -0.14952,0.157794 z"
+     id="path2" />
+</svg>

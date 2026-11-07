@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Images that cannot be embedded</title>
+    </head>
+    <body>
+        <article>
+            <h2>Pictures</h2>
+            <p>
+                A BMP with alt text:
+                <img
+                    src="https://images.example.com/four.bmp"
+                    alt="Fourth picture"
+                />
+            </p>
+            <p>
+                An image with no alt text:
+                <img src="https://images.example.com/photo" />
+            </p>
+
+            <p>
+                An inline data URL:
+                <img
+                    src="data:image/gif;base64,R0lGODlhAQABAAAAACw="
+                    alt="Inline picture"
+                />
+            </p>
+            <p>
+                A lazy-loaded image with no src:
+                <img
+                    data-src="https://images.example.com/lazy.png"
+                    alt="Lazy picture"
+                />
+            </p>
+            <p>
+                An unsupported image inside a link:
+                <a href="https://example.com/gallery"
+                    ><img
+                        src="https://images.example.com/seven.bmp"
+                        alt="Linked picture"
+                /></a>
+            </p>
+        </article>
+    </body>
+</html>
